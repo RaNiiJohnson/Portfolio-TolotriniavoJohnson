@@ -50,7 +50,8 @@ export default function Projects() {
           </h1>
           <div className="text-xs opacity-65 mb-4 mt-1 max-w-[500px] ml-1 sm:block hidden">
             un espace en ligne dedié pour les publication sans images ni
-            mentions " j'aime ", favorisant en revanche les commentaires.
+            mentions &quot; jaime &quot;, favorisant en revanche les
+            commentaires.
           </div>
           <div className="flex flex-row flex-wrap gap-5">
             <div className="text-xs flex flex-row items-center gap-1">
