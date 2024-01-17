@@ -16,6 +16,9 @@ const config: Config = {
       gridTemplateColumns: {
         gallery: "repeat(auto-fit, minmax(250px, 1fr))",
       },
+      fontFamily: {
+        burtons: "burtons",
+      },
     },
   },
   plugins: [],

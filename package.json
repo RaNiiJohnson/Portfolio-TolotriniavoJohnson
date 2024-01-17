@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
     "envalid": "^8.0.0",
+    "lucide-react": "^0.309.0",
     "next": "14.0.4",
     "plaiceholder": "^3.0.0",
     "react": "^18",
