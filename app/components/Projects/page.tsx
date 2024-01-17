@@ -37,6 +37,7 @@ export default function Projects() {
         </section>
         <Link
           href="https://github.com/RaNiiJohnson/MERN-Blog-Note"
+          target="_blank"
           className="bg-slate-700 sm:py-2 sm:px-4 py-1 px-2 rounded-lg cursor-pointer hover:bg-blue-600 transition-all"
         >
           <Code2 />
@@ -72,6 +73,7 @@ export default function Projects() {
         </section>
         <Link
           href="https://github.com/RaNiiJohnson/MERN-PostYeaah"
+          target="_blank"
           className="bg-slate-700  sm:py-2 sm:px-4 py-1 px-2 ml-1 rounded-lg cursor-pointer hover:bg-blue-600 transition-all"
         >
           <Code2 />
@@ -111,6 +113,7 @@ export default function Projects() {
         </section>
         <Link
           href="https://github.com/RaNiiJohnson/threads-clone-yeah"
+          target="_blank"
           className="bg-slate-700 sm:py-2 sm:px-4 py-1 px-2 rounded-lg cursor-pointer hover:bg-blue-600 transition-all"
         >
           <Code2 />
