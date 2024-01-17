@@ -25,11 +25,12 @@ export default function Presenation() {
             BIENVENUE SUR <span className="text-blue-700">MON PORTFOLIO</span>
           </h1>
           <p className="px-4">
-            je m'appelle Niavo,j'ai décidé de me lancer à fond dans
-            l'apprentissage du code, depuis 2021, je me forme à temps plein en
-            autodidacte en tant que développeur Javascript et ReactJS afin de
-            devenir le plus rapidement possible développeur. Plus qu' un avenir
-            proffessionel, je me suis découvert une passion, celle de coder,
+            je m&apos;appelle Niavo,j&apos;ai décidé de me lancer à fond dans
+            l&apos;apprentissage du code, depuis 2021, je me forme à temps plein
+            en autodidacte en tant que développeur Javascript et ReactJS afin de
+            devenir le plus rapidement possible développeur. Plus qu&apos;un
+            avenir proffessionel, je me suis découvert une passion, celle de
+            coder,
           </p>
         </section>
         <section className="px-4 py-6">
