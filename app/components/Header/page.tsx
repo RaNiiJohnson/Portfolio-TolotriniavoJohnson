@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <nav className="py-3 px-5 bg-slate-950 text-slate-50 border-b border-solid border-opacity-20 border-stone-300">
+    <nav className="py-3 md:px-5 px-1 bg-slate-950 text-slate-50 border-b border-solid border-opacity-20 border-stone-300">
       <section className="pb-3 flex flex-row md:gap-6 gap-1 text-center items-center">
         <span className="py-1 px-2 bg-slate-400 rounded-full font-burtons text-center text-2xl">
           Jt
