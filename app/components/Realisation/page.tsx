@@ -219,20 +219,20 @@ export default function Realisation() {
         </div>
       </div>
       <div className="my-4 text-sm">
-        <div className="flex gap-2 items-center">
-          <section className="bg-purple-500 h-4 w-6 rounded-lg"></section>
+        <div className="flex gap-2 items-center text-sm">
+          <section className="bg-purple-500 sm:h-4 sm:w-6 h-2 w-2 rounded-lg"></section>
           BLOG-NOTE
         </div>
-        <div className="flex gap-2 items-center">
-          <section className="bg-lime-500 h-4 w-6 rounded-lg"></section>
+        <div className="flex gap-2 items-center text-sm">
+          <section className="bg-lime-500 sm:h-4 sm:w-6 h-2 w-2 rounded-lg"></section>
           PostYeah
         </div>
-        <div className="flex gap-2 items-center">
-          <section className="bg-yellow-400 h-4 w-6 rounded-full"></section>
+        <div className="flex gap-2 items-center text-sm">
+          <section className="bg-yellow-400 sm:h-4 sm:w-6 h-2 w-2 rounded-full"></section>
           Threads-clone-yeah
         </div>
-        <div className="flex gap-2 items-center">
-          <section className="bg-slate-500 h-4 w-6 rounded-lg"></section>
+        <div className="flex gap-2 items-center text-sm">
+          <section className="bg-slate-500 sm:h-4 sm:w-6 h-2 w-2 rounded-lg"></section>
           Projets variés et formation continue.
         </div>
       </div>

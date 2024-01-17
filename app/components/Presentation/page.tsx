@@ -34,7 +34,7 @@ export default function Presenation() {
           </p>
         </section>
         <section className="px-4 py-6">
-          <h1 className="font-bold text-3xl">STACK</h1>
+          <h1 className="font-bold sm:text-3xl text-xl">STACK</h1>
           <div className="flex flex-wrap mt-2">
             <span className="bg-slate-800 flex items-center gap-1 py-2 px-4 mr-4 my-2 rounded-md">
               <Image src={reactjs} alt="" className="w-6" />

@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-slate-900 h-full">
         <Header />
-        <main className="max-w-7xl mx-auto p-5 text-slate-50 bg-slate-900 h-full">
+        <main className="max-w-7xl mx-auto md:p-5 sm:p-3 p-1 text-slate-50 bg-slate-900 h-full">
           {children}
         </main>
         <Footer />
