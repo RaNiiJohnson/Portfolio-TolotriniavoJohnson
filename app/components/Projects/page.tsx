@@ -1,4 +1,4 @@
-import { Code2 } from "lucide-react";
+import { Code2, Eye } from "lucide-react";
 import Link from "next/link";
 
 export default function Projects() {
@@ -111,13 +111,20 @@ export default function Projects() {
             </div>
           </div>
         </section>
-        <Link
-          href="https://github.com/RaNiiJohnson/threads-clone-yeah"
-          target="_blank"
-          className="bg-slate-700 sm:py-2 sm:px-4 py-1 px-2 rounded-lg cursor-pointer hover:bg-blue-600 transition-all"
-        >
-          <Code2 />
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-2">
+          <Link
+            href="https://github.com/RaNiiJohnson/threads-clone-yeah"
+            className="bg-slate-700   sm:py-2 sm:px-4 py-1 px-2 ml-1 rounded-lg cursor-pointer hover:bg-blue-600 transition-all"
+          >
+            <Code2 />
+          </Link>
+          <Link
+            href="https://threads-clone-yeah.vercel.app/"
+            className="bg-slate-700   sm:py-2 sm:px-4 py-1 px-2 ml-1 rounded-lg cursor-pointer hover:bg-orange-700 transition-all"
+          >
+            <Eye />
+          </Link>
+        </div>
       </div>
     </div>
   );

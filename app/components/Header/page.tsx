@@ -1,9 +1,4 @@
-import {
-  CalendarCheck2,
-  KanbanSquare,
-  Notebook,
-  PanelsTopLeft,
-} from "lucide-react";
+import { CalendarCheck2, Notebook, PanelsTopLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function Header() {
