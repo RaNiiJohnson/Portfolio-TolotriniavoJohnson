@@ -1,7 +1,7 @@
 export default function Realisation() {
   return (
     <div>
-      <h1 id="chronologie" className="font-bold sm:text-3xl text-xl uppercase">
+      <h1 id="chronologie" className="text-xl font-bold uppercase sm:text-3xl">
         Chronologie de mes projets
       </h1>
       <div className="overflow-x-auto ">
@@ -32,19 +32,19 @@ export default function Realisation() {
                 {Array.from({ length: 2 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-800"
                   ></section>
                 ))}
                 {Array.from({ length: 6 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
                   ></section>
                 ))}
                 {Array.from({ length: 4 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-purple-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-purple-500"
                   ></section>
                 ))}
               </div>
@@ -54,19 +54,19 @@ export default function Realisation() {
                 {Array.from({ length: 4 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-purple-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
                   ></section>
                 ))}
                 {Array.from({ length: 5 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-purple-500"
                   ></section>
                 ))}
                 {Array.from({ length: 3 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-purple-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
                   ></section>
                 ))}
               </div>
@@ -76,19 +76,19 @@ export default function Realisation() {
                 {Array.from({ length: 4 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-purple-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
                   ></section>
                 ))}
                 {Array.from({ length: 2 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-800"
                   ></section>
                 ))}
                 {Array.from({ length: 6 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
                   ></section>
                 ))}
               </div>
@@ -98,85 +98,13 @@ export default function Realisation() {
                 {Array.from({ length: 10 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-500 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
                   ></section>
                 ))}
                 {Array.from({ length: 2 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-yellow-400 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-              </div>
-            </div>
-            {/* POSTYEEAH */}
-            <div className="col-span-3">
-              <div className="grid grid-cols-12">
-                {Array.from({ length: 2 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-                {Array.from({ length: 10 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-slate-500 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-              </div>
-            </div>
-            <div className="col-span-3">
-              <div className="grid grid-cols-12">
-                {Array.from({ length: 3 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-                {Array.from({ length: 6 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-lime-500 w-3 h-3 mb-1"
-                  ></section>
-                ))}{" "}
-                <section className="col-span-1 bg-slate-800 w-3 h-3 mb-1"></section>
-                {Array.from({ length: 2 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-lime-500 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-              </div>
-            </div>
-            <div className="col-span-3">
-              <div className="grid grid-cols-12">
-                {Array.from({ length: 6 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-                {Array.from({ length: 6 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-slate-500 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-              </div>
-            </div>
-            <div className="col-span-3 mb-5">
-              <div className="grid grid-cols-12">
-                {Array.from({ length: 10 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-slate-500 w-3 h-3 mb-1"
-                  ></section>
-                ))}
-                {Array.from({ length: 2 }).map((_, index: number) => (
-                  <section
-                    key={index}
-                    className="col-span-1 bg-yellow-400 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-yellow-400"
                   ></section>
                 ))}
               </div>
@@ -188,13 +116,25 @@ export default function Realisation() {
                 {Array.from({ length: 3 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-yellow-400 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-yellow-400"
                   ></section>
                 ))}
-                {Array.from({ length: 9 }).map((_, index: number) => (
+                {Array.from({ length: 1 }).map((_, index: number) => (
                   <section
                     key={index}
-                    className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-500"
+                  ></section>
+                ))}
+                {Array.from({ length: 3 }).map((_, index: number) => (
+                  <section
+                    key={index}
+                    className="w-3 h-3 col-span-1 mb-1 bg-blue-600"
+                  ></section>
+                ))}
+                {Array.from({ length: 5 }).map((_, index: number) => (
+                  <section
+                    key={index}
+                    className="w-3 h-3 col-span-1 mb-1 bg-slate-800"
                   ></section>
                 ))}
               </div>
@@ -205,34 +145,34 @@ export default function Realisation() {
                   {Array.from({ length: 12 }).map((_, index: number) => (
                     <section
                       key={index}
-                      className="col-span-1 bg-slate-800 w-3 h-3 mb-1"
+                      className="w-3 h-3 col-span-1 mb-1 bg-slate-800"
                     ></section>
                   ))}
                 </div>
               </div>
             ))}
           </div>
-          <div className="flex w-[50px] flex-col mt-5 gap-8 text-sm  opacity-60">
+          <div className="flex w-[50px] flex-col mt-4 text-sm  opacity-60">
             <span>2023</span>
             <span>2024</span>
           </div>
         </div>
       </div>
       <div className="my-4 text-sm">
-        <div className="flex gap-2 items-center text-sm">
-          <section className="bg-purple-500 sm:h-4 sm:w-6 h-2 w-2 rounded-lg"></section>
+        <div className="flex items-center gap-2 text-sm">
+          <section className="w-2 h-2 bg-purple-500 rounded-lg sm:h-4 sm:w-6"></section>
           BLOG-NOTE
         </div>
-        <div className="flex gap-2 items-center text-sm">
-          <section className="bg-lime-500 sm:h-4 sm:w-6 h-2 w-2 rounded-lg"></section>
-          PostYeah
-        </div>
-        <div className="flex gap-2 items-center text-sm">
-          <section className="bg-yellow-400 sm:h-4 sm:w-6 h-2 w-2 rounded-full"></section>
+        <div className="flex items-center gap-2 text-sm">
+          <section className="w-2 h-2 bg-yellow-400 rounded-full sm:h-4 sm:w-6"></section>
           Threads-clone-yeah
         </div>
-        <div className="flex gap-2 items-center text-sm">
-          <section className="bg-slate-500 sm:h-4 sm:w-6 h-2 w-2 rounded-lg"></section>
+        <div className="flex items-center gap-2 text-sm">
+          <section className="w-2 h-2 bg-blue-600 rounded-lg sm:h-4 sm:w-6"></section>
+          DevDialogue
+        </div>
+        <div className="flex items-center gap-2 text-sm">
+          <section className="w-2 h-2 rounded-lg bg-slate-500 sm:h-4 sm:w-6"></section>
           Projets variés et formation continue.
         </div>
       </div>
