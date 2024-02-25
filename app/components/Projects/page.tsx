@@ -45,13 +45,21 @@ export default function Projects() {
             </div>
           </div>
         </section>
-        <Link
-          href="https://github.com/RaNiiJohnson/DevDialogue-NextJS-Project"
-          target="_blank"
-          className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-blue-600"
-        >
-          <Code2 />
-        </Link>
+        <div className="flex flex-col gap-2 sm:flex-row">
+          <Link
+            href="https://devdialogue-project.vercel.app/"
+            className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-cyan-700"
+          >
+            <Eye />
+          </Link>
+          <Link
+            href="https://github.com/RaNii+Johnson/DevDialogue-NextJS-Project"
+            target="_blank"
+            className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-blue-600"
+          >
+            <Code2 />
+          </Link>
+        </div>
       </div>
 
       <div className="flex items-center justify-between p-4 mt-4 rounded-lg bg-slate-800 sm:flex-row">
@@ -88,16 +96,16 @@ export default function Projects() {
         </section>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Link
+            href="https://threads-clone-yeah.vercel.app/"
+            className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-cyan-700"
+          >
+            <Eye />
+          </Link>
+          <Link
             href="https://github.com/RaNiiJohnson/threads-clone-yeah"
             className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-blue-600"
           >
             <Code2 />
-          </Link>
-          <Link
-            href="https://threads-clone-yeah.vercel.app/"
-            className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-orange-700"
-          >
-            <Eye />
           </Link>
         </div>
       </div>
