@@ -53,7 +53,7 @@ export default function Projects() {
             <Eye />
           </Link>
           <Link
-            href="https://github.com/RaNii+Johnson/DevDialogue-NextJS-Project"
+            href="https://github.com/RaNiiJohnson/DevDialogue-NextJS-Project"
             target="_blank"
             className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-blue-600"
           >
