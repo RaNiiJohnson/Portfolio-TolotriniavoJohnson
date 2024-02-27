@@ -29,7 +29,7 @@ export default function Presenation() {
             l&apos;apprentissage du code, depuis 2021, je me forme à temps plein
             en autodidacte en tant que développeur Javascript et ReactJS afin de
             devenir le plus rapidement possible développeur. Plus qu&apos;un
-            avenir proffessionel, je me suis découvert une passion, celle de
+            avenir professionnel, je me suis découvert une passion, celle de
             coder,
           </p>
         </section>
