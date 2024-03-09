@@ -1,4 +1,4 @@
-import { Code2, Eye } from "lucide-react";
+import { Code2, Link2 } from "lucide-react";
 import Link from "next/link";
 
 export default function Projects() {
@@ -50,7 +50,7 @@ export default function Projects() {
             href="https://devdialogue-project.vercel.app/"
             className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-cyan-700"
           >
-            <Eye />
+            <Link2 />
           </Link>
           <Link
             href="https://github.com/RaNiiJohnson/DevDialogue-NextJS-Project"
@@ -99,7 +99,7 @@ export default function Projects() {
             href="https://threads-clone-yeah.vercel.app/"
             className="px-2 py-1 ml-1 transition-all rounded-lg cursor-pointer bg-slate-700 sm:py-2 sm:px-4 hover:bg-cyan-700"
           >
-            <Eye />
+            <Link2 />
           </Link>
           <Link
             href="https://github.com/RaNiiJohnson/threads-clone-yeah"
