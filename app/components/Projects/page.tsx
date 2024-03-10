@@ -25,7 +25,7 @@ export default function Projects() {
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 bg-blue-600 rounded-full "></span>
-              <span> TypeScript</span>
+              <span>TypeScript</span>
             </div>
             <div className="flex flex-row items-center gap-1 text-xs">
               <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
@@ -33,15 +33,15 @@ export default function Projects() {
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-              <span> Prisma</span>
+              <span>Prisma</span>
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 rounded-full bg-slate-900"></span>
-              <span> Shadcn/ui</span>
+              <span>Shadcn/ui</span>
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 rounded-full bg-violet-500"></span>
-              <span> Postgres</span>
+              <span>Postgres</span>
             </div>
           </div>
         </section>
@@ -78,7 +78,7 @@ export default function Projects() {
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 bg-blue-600 rounded-full "></span>
-              <span> TypeScript</span>
+              <span>TypeScript</span>
             </div>
             <div className="flex flex-row items-center gap-1 text-xs">
               <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
@@ -86,11 +86,11 @@ export default function Projects() {
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-              <span> Prisma</span>
+              <span>Prisma</span>
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 rounded-full bg-violet-500"></span>
-              <span> Postgres</span>
+              <span>Postgres</span>
             </div>
           </div>
         </section>
@@ -122,18 +122,18 @@ export default function Projects() {
           </div>
           <div className="flex flex-row flex-wrap gap-3 sm:gap-5">
             <div className="flex flex-row items-center gap-1 text-xs">
-              <span className="w-2 h-2 bg-blue-400 rounded-full"></span> React
+              <span className="w-2 h-2 bg-blue-400 rounded-full"></span>React
             </div>
             <div className="flex flex-row items-center gap-1 text-xs">
-              <span className="w-2 h-2 bg-green-500 rounded-full"></span> NodeJS
+              <span className="w-2 h-2 bg-green-500 rounded-full"></span>NodeJS
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-              <span> ExpressJS</span>
+              <span>ExpressJS</span>
             </div>
             <div className="flex flex-row items-center gap-1 text-xs ">
               <span className="w-2 h-2 bg-green-300 rounded-full "></span>
-              <span> MongoDB</span>
+              <span>MongoDB</span>
             </div>
           </div>
         </section>
