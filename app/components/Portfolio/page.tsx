@@ -52,7 +52,7 @@ export default function Portfolio() {
           <Link href="tel:0323833306" className="flex gap-2 mt-2">
             <Phone />
             <span className="hidden transition-all border-b border-solid border-slate-50 hover:border-blue-600 hover:text-slate-400 sm:block">
-              0323833306
+              033 35 672 33
             </span>
           </Link>
         </div>
