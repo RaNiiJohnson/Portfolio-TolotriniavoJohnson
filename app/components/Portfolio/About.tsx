@@ -45,7 +45,7 @@ export default function About() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-secondary-foreground text-sm leading-relaxed">
+                <p className="text-muted-foreground text-sm leading-relaxed">
                   {value.description}
                 </p>
               </CardContent>

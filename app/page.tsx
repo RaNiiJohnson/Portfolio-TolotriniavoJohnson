@@ -31,7 +31,7 @@ export default function Portfolio() {
         <section id="contact" className="text-center py-16">
           <Card className="p-8">
             <h2 className="text-3xl font-bold mb-4">Travaillons ensemble</h2>
-            <p className="text-secondary-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
               Je suis toujours ouvert à de nouveaux défis et opportunités.
               N&apos;hésitez pas à me contacter pour discuter de vos projets !
             </p>
@@ -56,7 +56,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="border-t border-border bg-muted/30">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <div className="text-center text-secondary-foreground">
+          <div className="text-center text-muted-foreground">
             <p>
               &copy; {new Date().getFullYear()} Tolotriniavo Henintsoa
               Rajaonson.

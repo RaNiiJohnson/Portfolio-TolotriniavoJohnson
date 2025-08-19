@@ -148,10 +148,10 @@ export default function ProjectsModern() {
               </p>
 
               <div>
-                <h4 className="text-sm font-medium mb-2">
+                <h4 className="text-sm font-medium text-primary mb-2">
                   Fonctionnalités clés
                 </h4>
-                <div className="grid grid-cols-2 gap-1 text-sm text-secondary-foreground">
+                <div className="grid grid-cols-2 gap-1 text-sm text-muted-foreground">
                   {project.highlights.map((highlight, i) => (
                     <div key={i} className="flex items-center gap-2">
                       <div className="w-1 h-1 rounded-full bg-primary" />
@@ -162,7 +162,9 @@ export default function ProjectsModern() {
               </div>
 
               <div>
-                <h4 className="text-sm font-medium mb-2">Technologies</h4>
+                <h4 className="text-sm text-primary font-medium mb-2">
+                  Technologies
+                </h4>
                 <div className="flex flex-wrap gap-1">
                   {project.technologies.map((tech, i) => (
                     <Badge key={i} variant="secondary" className="text-xs">
