@@ -1,5 +1,6 @@
 "use client";
 
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -8,7 +9,6 @@ export default function Navigation() {
 
   const navItems = [
     { href: "#about", label: "À propos" },
-    { href: "#skills", label: "Compétences" },
     { href: "#projects", label: "Projets" },
     { href: "#contact", label: "Contact" },
   ];
@@ -30,28 +30,38 @@ export default function Navigation() {
                 {item.label}
               </a>
             ))}
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-          </button>
+          <div className="md:hidden p-2 flex items-center gap-3">
+            <ThemeToggle />
+            <button onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? (
+                <X className="w-5 h-5" />
+              ) : (
+                <Menu className="w-5 h-5" />
+              )}
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation*/}
         {isOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-border">
-            <div className="flex flex-col space-y-4 pt-4">
-              {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.label}
-                </a>
-              ))}
+          <div className="md:hidden absolute left-0 right-0 top-full bg-background/85 backdrop-blur-sm border-b border-border shadow-lg">
+            <div className="max-w-6xl mx-auto px-6 py-4">
+              <div className="flex flex-col space-y-4">
+                {navItems.map((item) => (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className="text-muted-foreground hover:text-foreground transition-colors py-2"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         )}
