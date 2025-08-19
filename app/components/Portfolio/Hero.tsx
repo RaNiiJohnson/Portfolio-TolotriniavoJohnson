@@ -58,6 +58,7 @@ export default function Hero() {
                 <Badge variant="secondary">TypeScript</Badge>
                 <Badge variant="secondary">Node.js</Badge>
                 <Badge variant="secondary">Tailwind CSS</Badge>
+                <Badge variant="secondary">PostgreSQL</Badge>
                 <Badge variant="secondary">MongoDB</Badge>
                 <Badge variant="secondary">Prisma</Badge>
               </div>
