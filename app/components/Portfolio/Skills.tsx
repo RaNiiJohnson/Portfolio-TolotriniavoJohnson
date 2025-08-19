@@ -1,4 +1,3 @@
-import { Badge } from "../ui/Badge";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
 
 export default function Skills() {

@@ -2,7 +2,6 @@ import About from "./components/Portfolio/About";
 import Hero from "./components/Portfolio/Hero";
 import Navigation from "./components/Portfolio/Navigation";
 import ProjectsModern from "./components/Portfolio/ProjectsModern";
-import Skills from "./components/Portfolio/Skills";
 import { Card } from "./components/ui/Card";
 
 export default function Portfolio() {

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, Calendar } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import avatar from "../../../public/avatar.jpg";

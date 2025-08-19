@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Calendar, Star } from "lucide-react";
+import { ExternalLink, Github, Calendar } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "../ui/Badge";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
