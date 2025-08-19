@@ -23,7 +23,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="mt-4 text-center md:text-left">
+            <div className="mt-4 md:text-left">
               <h1 className="text-3xl font-bold text-foreground">
                 Johnson Tolotriniavo
               </h1>
