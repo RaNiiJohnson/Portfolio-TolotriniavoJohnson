@@ -9,31 +9,27 @@ export default function Hero() {
     <div className="relative">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-lg" />
 
-      <div className="relative p-8">
+      <div className="relative md:p-8 p-3">
         <div className="flex flex-col md:flex-row items-start gap-8">
-          <div className="flex flex-col items-center md:items-start">
+          <div className="flex md:flex-col sm:flex-row gap-3 md:gap-1 md:items-center ">
             <div className="relative">
               <Image
                 src={avatar}
                 alt="Johnson Tolotriniavo"
-                className="w-32 h-32 rounded-full border-4 border-border shadow-lg"
+                className="md:size-32 size-20 rounded-full border-4 border-border shadow-lg"
               />
-              <div className="absolute -bottom-1 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-background flex items-center justify-center">
+              <div className="absolute md:-bottom-1 bottom-0 md:-right-2 right-0 md:size-8 size-5 bg-green-500 rounded-full border-4 border-background flex items-center justify-center">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
               </div>
             </div>
 
             <div className="mt-4 md:text-left">
-              <h1 className="text-3xl font-bold text-foreground">
+              <h1 className="md:text-3xl text-2xl font-bold text-foreground">
                 Johnson Tolotriniavo
               </h1>
-              <p className="text-lg text-muted-foreground mt-1">
+              <p className="md:text-lg text-muted-foreground mt-1">
                 Développeur Full Stack
               </p>
-              <div className="flex items-center gap-2 mt-2 text-sm text-muted-foreground">
-                <MapPin className="w-4 h-4" />
-                <span>Madagascar</span>
-              </div>
             </div>
           </div>
 
