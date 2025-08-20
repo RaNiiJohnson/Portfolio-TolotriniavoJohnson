@@ -48,14 +48,14 @@ export default function Navigation() {
 
         {/* Mobile Navigation*/}
         {isOpen && (
-          <div className="md:hidden absolute left-0 right-0 top-full bg-gradient-to-r from-background/95 via-background/90 to-background/95 backdrop-blur-md border-b border-border/50 shadow-lg">
+          <div className="md:hidden absolute left-0 right-0 top-full bg-background/95 backdrop-blur-xl border-b border-border/50 shadow-lg">
             <div className="max-w-6xl mx-auto px-6 py-4">
               <div className="flex flex-col space-y-4">
                 {navItems.map((item) => (
                   <a
                     key={item.href}
                     href={item.href}
-                    className="text-muted-foreground hover:text-foreground transition-colors py-2"
+                    className="text-foreground hover:text-primary transition-colors py-2"
                     onClick={() => setIsOpen(false)}
                   >
                     {item.label}
