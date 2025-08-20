@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-lg" />
 
       <div className="relative md:p-8 p-3">
-        <div className="flex flex-col lg:flex-row items-start md:gap-8 gap-2">
+        <div className="flex flex-col lg:flex-row items-start md:gap-8 gap-7">
           <div className="flex lg:flex-col sm:flex-row gap-3 lg:gap-1 items-center ">
             <div className="relative">
               <Image

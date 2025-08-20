@@ -11,7 +11,7 @@ export default function Portfolio() {
       <div className="relative">
         <Navigation />
 
-        <div className="max-w-6xl mx-auto px-6 py-8 space-y-16">
+        <div className="max-w-6xl mx-auto p-2 md:px-6 md:py-8 space-y-16">
           {/* Hero Section */}
           <section className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 via-violet-500/5 to-blue-500/5 dark:from-blue-500/10 dark:via-violet-500/10 dark:to-blue-500/10 rounded-xl blur-3xl" />
