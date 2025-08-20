@@ -14,7 +14,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
+    <nav className="sticky top-0 z-50 bg-gradient-to-r from-background/90 via-background/80 to-background/90 backdrop-blur-md border-b border-border/50 shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="font-bold text-xl">Johnson.dev</div>
@@ -48,7 +48,7 @@ export default function Navigation() {
 
         {/* Mobile Navigation*/}
         {isOpen && (
-          <div className="md:hidden absolute left-0 right-0 top-full bg-background/85 backdrop-blur-sm border-b border-border shadow-lg">
+          <div className="md:hidden absolute left-0 right-0 top-full bg-gradient-to-r from-background/95 via-background/90 to-background/95 backdrop-blur-md border-b border-border/50 shadow-lg">
             <div className="max-w-6xl mx-auto px-6 py-4">
               <div className="flex flex-col space-y-4">
                 {navItems.map((item) => (

@@ -34,7 +34,10 @@ export default function About() {
         <h3 className="text-3xl font-semibold mb-6">My values</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {values.map((value, index) => (
-            <Card key={index} className="hover:shadow-md transition-shadow">
+            <Card
+              key={index}
+              className="hover:shadow-md transition-all duration-300 backdrop-blur-sm bg-background/60 border-border/50 hover:bg-background/80 hover:border-border/80"
+            >
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg bg-primary/10">

@@ -99,7 +99,7 @@ export default function ProjectsModern() {
         {projects.map((project, index) => (
           <Card
             key={index}
-            className="hover:shadow-lg transition-all duration-300 group"
+            className="hover:shadow-lg transition-all duration-300 group backdrop-blur-sm bg-background/60 border-border/50 hover:bg-background/80 hover:border-border/80"
           >
             <CardHeader>
               <div className="flex items-start justify-between">
