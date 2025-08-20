@@ -30,17 +30,17 @@ export default function Portfolio() {
         {/* Contact Section */}
         <section id="contact" className="text-center py-16">
           <Card className="p-8">
-            <h2 className="text-3xl font-bold mb-4">Travaillons ensemble</h2>
+            <h2 className="text-3xl font-bold mb-4">Let's work together</h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Je suis toujours ouvert à de nouveaux défis et opportunités.
-              N&apos;hésitez pas à me contacter pour discuter de vos projets !
+              I'm always open to new challenges and opportunities. Feel free to
+              contact me to discuss your projects!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="mailto:Johnsontolotriniavo@gmail.com"
                 className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
               >
-                Envoyer un email
+                Send Email
               </a>
               <a
                 href="https://www.linkedin.com/in/tolotriniavo-johnson-b9427b26b"

@@ -8,7 +8,7 @@ export default function ProjectsModern() {
     {
       title: "DevDialogue",
       description:
-        "Plateforme de questions-réponses inspirée de Stack Overflow. Les développeurs peuvent poser des questions, partager leurs connaissances et voter pour les meilleures réponses.",
+        "Q&A platform inspired by Stack Overflow. Developers can ask questions, share their knowledge and vote for the best answers.",
       year: "2024",
       status: "Production",
       technologies: [
@@ -24,16 +24,16 @@ export default function ProjectsModern() {
         github: "https://github.com/RaNiiJohnson/DevDialogue-NextJS-Project",
       },
       highlights: [
-        "Authentification complète",
-        "Système de votes",
-        "Recherche avancée",
-        "Interface responsive",
+        "Complete authentication",
+        "Voting system",
+        "Advanced search",
+        "Responsive interface",
       ],
     },
     {
       title: "Threads Clone",
       description:
-        "Clone moderne de l'application Threads avec toutes les fonctionnalités principales : posts, commentaires, likes et système de suivi.",
+        "Modern clone of the Threads application with all main features: posts, comments, likes and following system.",
       year: "2024",
       status: "Production",
       technologies: [
@@ -48,27 +48,27 @@ export default function ProjectsModern() {
         github: "https://github.com/RaNiiJohnson/threads-clone-yeah",
       },
       highlights: [
-        "Interface moderne",
-        "Temps réel",
-        "Système de suivi",
-        "Gestion des médias",
+        "Modern interface",
+        "Real-time",
+        "Following system",
+        "Media management",
       ],
     },
     {
       title: "BLOG-NOTE",
       description:
-        "Réseau social complet permettant aux utilisateurs de partager du contenu, interagir via likes et commentaires, et suivre d'autres utilisateurs.",
+        "Complete social network allowing users to share content, interact via likes and comments, and follow other users.",
       year: "2023",
-      status: "Archivé",
+      status: "Archived",
       technologies: ["React", "Node.js", "Express.js", "MongoDB"],
       links: {
         github: "https://github.com/RaNiiJohnson/MERN-Blog-Note",
       },
       highlights: [
-        "CRUD complet",
-        "Upload d'images",
-        "Système d'amis",
-        "Feed personnalisé",
+        "Complete CRUD",
+        "Image upload",
+        "Friends system",
+        "Personalized feed",
       ],
     },
   ];
@@ -77,9 +77,9 @@ export default function ProjectsModern() {
     switch (status) {
       case "Production":
         return "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300";
-      case "Développement":
+      case "Development":
         return "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300";
-      case "Archivé":
+      case "Archived":
         return "bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300";
       default:
         return "bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300";
@@ -89,9 +89,9 @@ export default function ProjectsModern() {
   return (
     <section className="space-y-8">
       <div>
-        <h2 className="text-3xl font-bold mb-2">Projets sélectionnés</h2>
+        <h2 className="text-3xl font-bold mb-2">Selected Projects</h2>
         <p className="text-secondary-foreground">
-          Une sélection de mes projets les plus significatifs et récents
+          A selection of my most significant and recent projects
         </p>
       </div>
 
@@ -149,7 +149,7 @@ export default function ProjectsModern() {
 
               <div>
                 <h4 className="text-sm font-medium text-primary mb-2">
-                  Fonctionnalités clés
+                  Key Features
                 </h4>
                 <div className="grid grid-cols-2 gap-1 text-sm text-muted-foreground">
                   {project.highlights.map((highlight, i) => (

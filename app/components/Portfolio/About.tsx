@@ -5,34 +5,33 @@ export default function About() {
   const values = [
     {
       icon: Code2,
-      title: "Code de qualité",
+      title: "Quality Code",
       description:
-        "J'écris du code propre, maintenable et bien documenté en suivant les meilleures pratiques.",
+        "I write clean, maintainable and well-documented code following best practices.",
     },
     {
       icon: Lightbulb,
       title: "Innovation",
       description:
-        "Toujours à l'affût des nouvelles technologies pour créer des solutions modernes.",
+        "Always on the lookout for new technologies to create modern solutions.",
     },
     {
       icon: Target,
-      title: "Orienté résultats",
-      description:
-        "Focus sur la livraison de projets qui répondent aux besoins réels des utilisateurs.",
+      title: "Results-oriented",
+      description: "Focus on delivering projects that meet real user needs.",
     },
     {
       icon: Users,
       title: "Collaboration",
       description:
-        "Travail d'équipe efficace et communication claire pour des projets réussis.",
+        "Effective teamwork and clear communication for successful projects.",
     },
   ];
 
   return (
     <section className="space-y-8">
       <div>
-        <h3 className="text-3xl font-semibold mb-6">Mes valeurs</h3>
+        <h3 className="text-3xl font-semibold mb-6">My values</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {values.map((value, index) => (
             <Card key={index} className="hover:shadow-md transition-shadow">

@@ -10,8 +10,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-lg" />
 
       <div className="relative md:p-8 p-3">
-        <div className="flex flex-col md:flex-row items-start gap-8">
-          <div className="flex md:flex-col sm:flex-row gap-3 md:gap-1 md:items-center ">
+        <div className="flex flex-col lg:flex-row items-start md:gap-8 gap-2">
+          <div className="flex lg:flex-col sm:flex-row gap-3 lg:gap-1 items-center ">
             <div className="relative">
               <Image
                 src={avatar}
@@ -23,30 +23,29 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="mt-3 md:text-left">
+            <div className="md:text-left">
               <h1 className="md:text-3xl text-2xl font-bold text-foreground">
                 Johnson Tolotriniavo
               </h1>
               <p className="md:text-lg text-muted-foreground mt-1">
-                Développeur Full Stack
+                Full Stack Developer
               </p>
             </div>
           </div>
 
-          <div className="flex-1 space-y-5">
+          <div className="flex-1 space-y-5 md:space-y-7">
             <div>
               <p className="text-foreground leading-relaxed">
-                Passionné par le développement web depuis 2021, je me spécialise
-                dans la création d&apos;applications modernes avec{" "}
-                <strong>React</strong>, <strong>Next.js</strong> et{" "}
-                <strong>TypeScript</strong>. Je transforme des idées en
-                solutions digitales élégantes et performantes.
+                Passionate about web development since 2021, I specialize in
+                creating modern applications with <strong>React</strong>,{" "}
+                <strong>Next.js</strong> and <strong>TypeScript</strong>. I
+                transform ideas into elegant and performant digital solutions.
               </p>
             </div>
 
             <div>
               <h3 className="text-sm font-medium text-muted-foreground mb-3">
-                TECHNOLOGIES PRINCIPALES
+                MAIN TECHNOLOGIES
               </h3>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="secondary" className="bg-cyan-500 text-white">
@@ -82,7 +81,7 @@ export default function Hero() {
                 className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                Me contacter
+                Contact me
               </Link>
 
               <Link
