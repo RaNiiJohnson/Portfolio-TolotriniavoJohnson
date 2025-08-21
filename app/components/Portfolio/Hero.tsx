@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex-1 space-y-6 md:space-y-7">
+          <div className="flex-1 space-y-7">
             <div>
               <p className="text-foreground leading-relaxed">
                 Passionate about web development since 2021, I specialize in
