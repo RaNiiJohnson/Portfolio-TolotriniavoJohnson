@@ -78,25 +78,25 @@ export default function Hero() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="mailto:Johnsontolotriniavo@gmail.com"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+                className="inline-flex items-center gap-1 sm:gap-2 p-2 sm:px-4 sm:py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
               >
-                <Mail className="w-4 h-4" />
+                <Mail className="size-3 sm:size-4" />
                 Contact me
               </Link>
 
               <Link
                 href="https://github.com/RaNiiJohnson"
-                className="inline-flex items-center gap-2 px-4 py-2 border border-border rounded-lg hover:bg-muted transition-colors"
+                className="inline-flex items-center gap-1 sm:gap-2 p-2 sm:px-4 sm:py-2 border border-border rounded-lg hover:bg-muted transition-colors"
               >
-                <Github className="w-4 h-4" />
+                <Github className="size-3 sm:size-4" />
                 GitHub
               </Link>
 
               <Link
                 href="https://www.linkedin.com/in/tolotriniavo-johnson-b9427b26b"
-                className="inline-flex items-center gap-2 px-4 py-2 border border-border rounded-lg hover:bg-muted transition-colors"
+                className="inline-flex items-center gap-1 sm:gap-2 p-2 sm:px-4 sm:py-2 border border-border rounded-lg hover:bg-muted transition-colors"
               >
-                <Linkedin className="w-4 h-4" />
+                <Linkedin className="size-3 sm:size-4" />
                 LinkedIn
               </Link>
             </div>
