@@ -89,6 +89,25 @@ export default function ProjectsModern() {
     }
   };
 
+  const getTechColor = (tech: string) => {
+    const techColors: { [key: string]: string } = {
+      React: "bg-cyan-500 text-white",
+      "Next.js": "bg-gray-900 text-white",
+      TypeScript: "bg-blue-600 text-white",
+      "Node.js": "bg-green-600 text-white",
+      Tailwind: "bg-cyan-500 text-white",
+      "Tailwind CSS": "bg-cyan-500 text-white",
+      Postgres: "bg-indigo-700 text-white",
+      PostgreSQL: "bg-indigo-700 text-white",
+      MongoDB: "bg-green-500 text-white",
+      Prisma: "bg-gray-800 text-white",
+      "Shadcn/ui": "bg-purple-600 text-white",
+      "Express.js": "bg-gray-700 text-white",
+    };
+
+    return techColors[tech] || "bg-gray-600 text-white";
+  };
+
   return (
     <motion.section
       className="space-y-8"
@@ -191,9 +210,11 @@ export default function ProjectsModern() {
                   </h4>
                   <div className="flex flex-wrap gap-1">
                     {project.technologies.map((tech, i) => (
-                      <Badge key={i} variant="secondary" className="text-xs">
-                        {tech}
-                      </Badge>
+                      <div key={i}>
+                        <Badge className={`text-xs ${getTechColor(tech)}`}>
+                          {tech}
+                        </Badge>
+                      </div>
                     ))}
                   </div>
                 </div>
