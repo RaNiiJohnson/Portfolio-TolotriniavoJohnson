@@ -1,4 +1,7 @@
+"use client";
+
 import { ExternalLink, Github, Calendar } from "lucide-react";
+import { motion } from "motion/react";
 import Link from "next/link";
 import { Badge } from "../ui/Badge";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
@@ -87,96 +90,118 @@ export default function ProjectsModern() {
   };
 
   return (
-    <section className="space-y-8">
-      <div>
+    <motion.section
+      className="space-y-8"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true, margin: "-100px" }}
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
         <h2 className="text-3xl font-bold mb-2">Selected Projects</h2>
         <p className="text-secondary-foreground">
           A selection of my most significant and recent projects
         </p>
-      </div>
+      </motion.div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {projects.map((project, index) => (
-          <Card
+          <motion.div
             key={index}
-            className="hover:shadow-lg transition-all duration-300 group backdrop-blur-sm bg-background/60 border-border/50 hover:bg-background/80 hover:border-border/80"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.6,
+              delay: index * 0.2,
+              type: "spring",
+              stiffness: 100,
+            }}
+            viewport={{ once: true, margin: "-50px" }}
+            whileHover={{ y: -8, scale: 1.02 }}
           >
-            <CardHeader>
-              <div className="flex items-start justify-between">
-                <div className="space-y-2">
-                  <CardTitle className="text-xl group-hover:text-primary transition-colors">
-                    {project.title}
-                  </CardTitle>
-                  <div className="flex items-center gap-2">
-                    <Badge
-                      variant="outline"
-                      className={getStatusColor(project.status)}
-                    >
-                      {project.status}
-                    </Badge>
-                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                      <Calendar className="w-3 h-3" />
-                      {project.year}
+            <Card className="hover:shadow-lg transition-all duration-300 group backdrop-blur-sm bg-background/60 border-border/50 hover:bg-background/80 hover:border-border/80 h-full">
+              <CardHeader>
+                <div className="flex items-start justify-between">
+                  <div className="space-y-2">
+                    <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                      {project.title}
+                    </CardTitle>
+                    <div className="flex items-center gap-2">
+                      <Badge
+                        variant="outline"
+                        className={getStatusColor(project.status)}
+                      >
+                        {project.status}
+                      </Badge>
+                      <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                        <Calendar className="w-3 h-3" />
+                        {project.year}
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="flex gap-2">
-                  {project.links.demo && (
+                  <div className="flex gap-2">
+                    {project.links.demo && (
+                      <Link
+                        href={project.links.demo}
+                        className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors"
+                        target="_blank"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </Link>
+                    )}
                     <Link
-                      href={project.links.demo}
+                      href={project.links.github}
                       className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors"
                       target="_blank"
                     >
-                      <ExternalLink className="w-4 h-4" />
+                      <Github className="w-4 h-4" />
                     </Link>
-                  )}
-                  <Link
-                    href={project.links.github}
-                    className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors"
-                    target="_blank"
-                  >
-                    <Github className="w-4 h-4" />
-                  </Link>
+                  </div>
                 </div>
-              </div>
-            </CardHeader>
+              </CardHeader>
 
-            <CardContent className="space-y-4">
-              <p className="text-secondary-foreground leading-relaxed">
-                {project.description}
-              </p>
+              <CardContent className="space-y-4">
+                <p className="text-secondary-foreground leading-relaxed">
+                  {project.description}
+                </p>
 
-              <div>
-                <h4 className="text-sm font-medium text-primary mb-2">
-                  Key Features
-                </h4>
-                <div className="grid grid-cols-2 gap-1 text-sm text-muted-foreground">
-                  {project.highlights.map((highlight, i) => (
-                    <div key={i} className="flex items-center gap-2">
-                      <div className="w-1 h-1 rounded-full bg-primary" />
-                      {highlight}
-                    </div>
-                  ))}
+                <div>
+                  <h4 className="text-sm font-medium text-primary mb-2">
+                    Key Features
+                  </h4>
+                  <div className="grid grid-cols-2 gap-1 text-sm text-muted-foreground">
+                    {project.highlights.map((highlight, i) => (
+                      <div key={i} className="flex items-center gap-2">
+                        <div className="w-1 h-1 rounded-full bg-primary" />
+                        {highlight}
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
 
-              <div>
-                <h4 className="text-sm text-primary font-medium mb-2">
-                  Technologies
-                </h4>
-                <div className="flex flex-wrap gap-1">
-                  {project.technologies.map((tech, i) => (
-                    <Badge key={i} variant="secondary" className="text-xs">
-                      {tech}
-                    </Badge>
-                  ))}
+                <div>
+                  <h4 className="text-sm text-primary font-medium mb-2">
+                    Technologies
+                  </h4>
+                  <div className="flex flex-wrap gap-1">
+                    {project.technologies.map((tech, i) => (
+                      <Badge key={i} variant="secondary" className="text-xs">
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </motion.div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
